@@ -43,7 +43,7 @@ for load in to_load:
 
 @System.on(system_cmd(pattern=r"status", allow_enforcer=True))
 async def status(event):
-    msg = await event.reply("Connecting to Lovely Systems.")
+    msg = await event.reply("Connecting to 𝙻𝚄𝙽𝙰 𝚇 𝚂𝚈𝚂𝚃𝙴𝙼.")
     time.sleep(1)
     await msg.edit("Initialising ■□□□□□")
     time.sleep(1)
