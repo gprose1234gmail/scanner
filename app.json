@@ -70,17 +70,17 @@
        "MONGO_DB_URL": {
          "description": " Put ur Mongo Db.",
          "required": true,
-         "value": ""
+         "value": "mongodb+srv://shikhar:shikhar@cluster0.6xzlh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
       },
       "Lovely_logs": {
       "description": "  In this group all scan request come",
          "required": true,
-         "value": ""
+         "value": "-1001615945740"
    },      
       "Lovely_approved_logs": {
          "description": "When approved it sends a message there.",
          "required": true,
-         "value": ""
+         "value": "-1001635517276"
       },
       "GBAN_MSG_LOGS": {
          "description": "Where to gban user, Set to None and it will send /gban in Lovely_logs",
